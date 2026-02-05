@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Playpen+Sans:wght@700;800&family=Roboto+Slab:wght@300&display=swap');
+
+body{
+    background-color: rgba(241, 221, 232, 0.91);
+}
+
+nav{
+    text-align: center;
+    border: 3px solid purple;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, rgb(115, 41, 146), rgb(161, 76, 182));
+    box-shadow: 7px 5px rebeccapurple;
+    margin: 14px;
+    height: 75px;
+    width: 98%;
+}
+
+nav a{
+    font-family: "Playpen Sans", cursive;
+    font-size: 2.5em;
+    color: pink;
+}
+
+li {
+    list-style-type: none;
+}
+
+h1{
+    font-family: 'Exo 2', sans-serif;
+    color: #3e1467;
+    font-size: 2.5em;
+    text-align: center;
+    font-weight: bold;
+}
+
+#first{
+    border: 3px solid purple;
+    border-radius: 10px;
+    box-shadow: 4px 4px #55267e;
+    background-color: #a14cb6;
+    margin: 10px;
+    padding-left: 10px;
+    width: 1763px;
+}
+
+#first:hover{
+    background-color: #732992;
+}
+
+#firsth{
+    font-family: 'Exo 2', sans-serif;
+    color: pink;
+    font-size: 2em;
+}
+
+#firstp{
+    font-family: 'Exo 2', sans-serif;
+    color: pink;
+    font-size: 1.7em;
+}
+
+#second{
+    border: 3px solid purple;
+    border-radius: 10px;
+    box-shadow: 4px 4px #55267e;
+    background-color: rgba(210, 226, 238, 0.92);
+    margin: 10px;
+    width: 1763px;
+    padding-left: 10px;
+}
+
+#second:hover{
+    background-color: rgb(130, 194, 248);
+}
+
+#secondh{
+    font-family: 'Exo 2', sans-serif;
+    color: #2c2c81;
+    font-size: 2em;
+}
+
+#secondp{
+    font-family: 'Exo 2', sans-serif;
+    color: #3f3fa1;
+    font-size: 1.7em;
+}
+
+#third{
+    border: 3px solid purple;
+    border-radius: 10px;
+    box-shadow: 4px 4px #55267e;
+    background-color: #de8686;
+    margin: 10px;
+    width: 1763px;
+    padding-left: 10px;
+}
+
+#third:hover{
+    background-color: indianred;
+}
+
+#thirdh{
+    font-family: 'Exo 2', sans-serif;
+    color: rgb(93, 5, 37);
+    font-size: 2em;
+}
+
+#thirdp{
+    font-family: 'Exo 2', sans-serif;
+    color: rgb(114, 22, 55);
+    font-size: 1.7em;
+}
+
+#fourth{
+    border: 3px solid purple;
+    border-radius: 10px;
+    box-shadow: 4px 4px #55267e;
+    background-color: rgba(243, 189, 102, 0.88);
+    margin: 10px;
+    width: 1763px;
+    padding-left: 10px;
+}
+
+#fourth:hover{
+    background-color: #e7aa65;
+}
+
+#fourthh{
+    font-family: 'Exo 2', sans-serif;
+    color: rgba(203, 69, 25, 0.91);
+    font-size: 2em;
+}
+
+#fourthp{
+    font-family: 'Exo 2', sans-serif;
+    color: rgb(211, 97, 57);
+    font-size: 1.7em;
+}

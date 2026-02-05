@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Playpen+Sans:wght@700;800&family=Roboto+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+body{
+    background-color: rgba(241, 221, 232, 0.91);
+    height: 4300px;
+}
+
+header{
+    border: 1px hidden white;
+    background-image: linear-gradient(to right, #732992, #a14cb6);
+    color: pink;
+    padding: 10px;
+    width: 235px;
+    position: sticky;
+    float: left;
+    top: 5px;
+}
+
+header>nav>ul>li{
+    display: inline-block;
+    list-style-type: none;
+}
+
+header>img{
+    margin: 14px;
+}
+
+nav a{
+    color: pink;
+    font-size: 1.2em;
+    width: 100%;
+    float: left;
+}
+
+h1{
+    font-family: "Playpen Sans", cursive;
+    font-size: 2.5em;
+    margin: 10px;
+    float: left;
+}
+
+h2 {
+    font-family: "Playpen Sans", cursive;
+    font-size: 1.7em;
+    margin: 10px;
+    float: left;
+}
+
+#event_detail{
+    float: left;
+    margin-top: 5px;
+}
+
+#description{
+    border: 3px solid purple;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, rgb(115, 41, 146), rgb(161, 76, 182));
+    box-shadow: 7px 5px rebeccapurple;
+    float: left;
+    clear: right;
+    margin-left: 10px;
+    width: 100%;
+    padding: 5px;
+}
+
+article p{
+    color: pink;
+    font-size: 1.3em;
+}
+
+#time{
+    border: 3px solid purple;
+    border-radius: 10px;
+    box-shadow: 6px 4px rebeccapurple;
+    background-image: linear-gradient(to right, #732992, #a14cb6);
+    float: left;
+    clear: both;
+    margin: 10px;
+}
+
+#time>p{
+    font-family: "Playpen Sans", cursive;
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+#place{
+    border: 3px solid purple;
+    border-radius: 10px;
+    box-shadow: 6px 4px rebeccapurple;
+    background-image: linear-gradient(to right, #732992, #a14cb6);
+    float: right;
+    margin: 10px 430px 10px 10px;
+    width: 600px;
+    height: 155px;
+}
+
+#place address{
+    color: pink;
+    font-family: "Playpen Sans", cursive;
+    font-size: 1.3em;
+    padding: 10px;
+}
+
+article h3{
+    color: pink;
+    font-family: "Playpen Sans", cursive;
+    font-size: 1.7em;
+    margin: 10px;
+}
+
+#guests h3{
+    font-size: 2em;
+}
+
+.guest_one{
+    color: rgb(93, 5, 37);
+    font-family: 'Playpen Sans', cursive;
+    font-size: 1.3em;
+    float: right;
+    width: 1150px;
+    position: relative;
+    top: -820px;
+}
+
+.guest_two{
+    color: rgb(93, 5, 37);
+    font-family: 'Playpen Sans', cursive;
+    font-size: 1.3em;
+    float: right;
+    width: 1150px;
+    position: relative;
+    top: -1150px;
+}
+
+#one{
+    border: 3px solid;
+    box-shadow: 4px 4px #55267e;
+    background-color: #de8686;
+    color: rgb(93, 5, 37);
+    font-family: 'Playpen Sans', cursive;
+    float: left;
+    clear: both;
+    position: relative;
+    bottom: 370px;
+    width: 75%;
+    margin-left: 265px;
+    padding: 10px;
+}
+
+#guests>#one:hover{
+    background-color: indianred;
+}
+
+#two{
+    border: 3px solid;
+    box-shadow: 4px 4px #55267e;;
+    background-color: #de8686;
+    color: rgb(93, 5, 37);
+    font-family: 'Playpen Sans', cursive;
+    clear: both;
+    position: relative;
+    bottom: 730px;
+    width: 75%;
+    margin-left: 265px;
+    padding: 10px;
+}
+
+#guests>#two:hover{
+    background-color: indianred;
+}
+
+#guests figcaption{
+    margin-left: 115px;
+}
+
+#gallery{
+    background-color: rgba(210, 226, 238, 0.92);
+    color: #2c2c81;
+    font-family: "Playpen Sans", cursive;
+    text-align: center;
+    float: left;
+    position: relative;
+    bottom: 935px;
+    margin-left: 265px;
+    width:75%;
+    padding: 10px;
+}
+
+h4{
+    font-family: "Playpen Sans", cursive;
+    font-size: 2.5em;
+}
+
+.photo{
+    float: left;
+    width: 575px;
+    height: 390px;
+}
+
+.photo img{
+    float: left;
+    width: 575px;
+}
+
+.caption{
+    font-size: 1.3em ;
+}
+
+#schedule{
+    float: left;
+    position: relative;
+    bottom: 1000px;
+    margin-left: 265px;
+    width: 75%;
+    padding: 10px;
+}
+
+h5{
+    color: rgb(93, 5, 37);
+    font-family: 'Playpen Sans', cursive;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+#schedule li{
+    font-size: 1.6em;
+    list-style-type: none;
+    margin: 10px;
+}
+
+#schedule li:nth-child(2){
+    color: #2c2c81;
+    font-family: 'Exo 2', sans-serif;
+    box-shadow: 4px 4px #55267e;
+    background-color: rgba(210, 226, 238, 0.92);
+    width: 680px;
+    padding: 5px;
+}
+
+#schedule li:nth-child(2):hover{
+    background-color: rgb(130, 194, 248);
+}
+
+#schedule li:nth-child(4){
+    color: #2c2c81;
+    font-family: 'Exo 2', sans-serif;
+    box-shadow: 4px 4px #55267e;
+    background-color: rgba(210, 226, 238, 0.92);
+    width: 680px;
+    padding: 5px;
+}
+
+#schedule li:nth-child(4):hover{
+    background-color: rgb(130, 194, 248);
+}
+
+#schedule li:nth-child(6){
+    color: #2c2c81;
+    font-family: 'Exo 2', sans-serif;
+    box-shadow: 4px 4px #55267e;
+    background-color: rgba(210, 226, 238, 0.92);
+    width: 680px;
+    padding: 5px;
+}
+
+#schedule li:nth-child(6):hover{
+    background-color: rgb(130, 194, 248);
+}
+
+#schedule li:nth-child(3){
+    color: rgb(93, 5, 37);
+    font-family: 'Exo 2', sans-serif;
+    box-shadow: 4px 4px #55267e;
+    background-color: #de8686;
+    width: 680px;
+    padding: 5px;
+}
+
+#schedule li:nth-child(3):hover{
+    background-color: indianred;
+}
+
+#schedule li:nth-child(5){
+    color: rgb(93, 5, 37);
+    font-family: 'Exo 2', sans-serif;
+    box-shadow: 4px 4px #55267e;
+    background-color: #de8686;
+    width: 680px;
+    padding: 5px;
+}
+
+#schedule li:nth-child(5):hover{
+    background-color: indianred;
+}
+
+#schedule li:first-child{
+    color: pink;
+    font-family: 'Exo 2', sans-serif;
+    box-shadow: 4px 4px #55267e;
+    background-color: #a14cb6;
+    width: 680px;
+    padding: 5px;
+}
+
+#schedule li:first-child:hover{
+    background-color: #732992;
+}
+
+#schedule li:last-child{
+    color: pink;
+    font-family: 'Exo 2', sans-serif;
+    box-shadow: 4px 4px #55267e;
+    background-color: #a14cb6;
+    width: 680px;
+    padding: 5px;
+}
+
+#schedule li:last-child:hover{
+    background-color: #732992;
+}
+
+#schedule li:nth-child(7){
+    color: rgba(203, 69, 25, 0.91);
+    font-family: 'Exo 2', sans-serif;
+    box-shadow: 4px 4px #55267e;
+    background-color: rgba(243, 189, 102, 0.88);
+    width: 680px;
+    padding: 5px;
+}
+
+#schedule li:nth-child(7):hover{
+    background-color: #faaf42;
+}
+
+#feedback{
+    float: left;
+    position: relative;
+    bottom: 1000px;
+    margin-left: 265px;
+
+    padding: 10px;
+}
+
+h6{
+    font-family: 'Playpen Sans', cursive;
+    font-size: 2.5em;
+    text-align: center;
+    margin: 10px;
+}
+
+#feedback1{
+    color: #2c2c81;
+    font-family: "Playpen Sans", cursive;
+    font-size: 1.7em;
+}
+
+#feedback2{
+    color: rgb(93, 5, 37);
+    font-family: 'Exo 2', sans-serif;
+    font-size: 1.7em;
+}
+
+#feedback3{
+    color: rgba(176, 55, 17, 0.91);
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.7em;
+}
+
+#location{
+    border: 3px solid purple;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, rgb(145, 61, 161), rgba(160, 100, 175, 0.96));
+    box-shadow: 7px 5px rebeccapurple;
+    float: left;
+    position: relative;
+    bottom: 1000px;
+    margin-left: 265px;
+    width: 40%;
+    padding: 10px;
+}
+
+#location address{
+    color: pink;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 5px;
+}
+
+iframe {
+    margin-left: 40px;
+}
+
+footer{
+    float: left;
+    position: relative;
+    bottom: 1000px;
+    margin-left: 265px;
+    width: 75%;
+    padding: 10px;
+}
+
+footer>p {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 1.2em;
+    color: rebeccapurple;
+    font-weight: bold;
+}
+
+#gblearn_message_holder{
+    float: left;
+    position: relative;
+    bottom: 1000px;
+    margin-left: 265px;
+    width: 75%;
+    padding: 10px;
+}
