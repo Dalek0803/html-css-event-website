@@ -1,5 +1,8 @@
 # HTML/CSS Event Website
 
+# Live demo: 
+🔗 https://dalek0803.github.io/html-css-event-website/
+
 A static event website created as part of a college assignment.
 Built using semantic HTML5 and CSS, with focus on layout, navigation, and basic UI interactions.
 
